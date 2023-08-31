@@ -10,43 +10,29 @@ a {
 ul {
   list-style-type: none;
 }
-h3 {
+.heero-third {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-h2 {
+.heero-second {
   color: #2e2f42;
-  text-align: center;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-p {
+.text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 .logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -54,8 +40,8 @@ p {
   text-transform: uppercase;
   text-decoration: none;
 }
-.logo-blue {
-  color: #4d5ae5;
+.logo-studio {
+  color: #2e2f42;
 }
 .nav-link {
   color: #2e2f42;
@@ -72,6 +58,7 @@ p {
 .address {
   color: #434455;
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -82,10 +69,11 @@ p {
 .section-studio {
   background: #2e2f42;
 }
-h1 {
+.section-contacts {
+  background: #f4f4fd;
+}
+.heero-first {
   color: #fff;
-
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -98,25 +86,26 @@ h1 {
   line-height: 1.5;
   cursor: pointer;
   letter-spacing: 0.04em;
-  border-radius: 4px;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-.button:hover {
+.button:hover .button:focus {
   background: #404bbf;
 }
 .footer {
   background: #2e2f42;
 }
 .logo-footer {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+}
+.logo-footer-white {
+  color: #f4f4fd;
 }
 .text-footer {
   color: #f4f4fd;
