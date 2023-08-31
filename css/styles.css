@@ -23,6 +23,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .text {
   font-size: 16px;
@@ -44,13 +45,13 @@ ul {
   color: #2e2f42;
 }
 .nav-link {
-  color: #2e2f42;
+  color: #434455;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.nav-link:focus,
+.nav-link:hover .nav-link:focus,
 .nav-link:active {
   color: #404bbf;
   text-decoration: underline;
@@ -72,8 +73,12 @@ ul {
 .section-contacts {
   background: #f4f4fd;
 }
+.team-card-background {
+  background-color: #fff;
+}
 .heero-first {
   color: #fff;
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -88,7 +93,8 @@ ul {
   letter-spacing: 0.04em;
   background: #4d5ae5;
 }
-.button:hover .button:focus {
+.button:hover,
+.button:focus {
   background: #404bbf;
 }
 .footer {
@@ -109,4 +115,6 @@ ul {
 }
 .text-footer {
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02;
 }
