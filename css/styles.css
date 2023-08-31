@@ -45,13 +45,14 @@ ul {
   color: #2e2f42;
 }
 .nav-link {
-  color: #434455;
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.nav-link:hover .nav-link:focus,
+.nav-link:hover,
+.nav-link:focus,
 .nav-link:active {
   color: #404bbf;
   text-decoration: underline;
